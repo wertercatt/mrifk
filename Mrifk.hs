@@ -39,8 +39,8 @@ import Data.Maybe (fromJust)
 import Numeric (showHex)
 
 
-mrifkRelease = "1-patched-v2"
-mrifkSerial  = "160321"
+mrifkRelease = "3"
+mrifkSerial  = "170912"
 
 
 main =
