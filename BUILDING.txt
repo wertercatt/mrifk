@@ -1,0 +1,9 @@
+Mrifk should build on any platform which supports GHC 6.2 (i.e. Win32 or
+Posix). GHC versions prior to 6.2 will almost work, except that showHex
+will prepend "0x" to hexadecimal numbers, which uglifies the output a bit.
+
+On UNIX platforms you'll probably want to delete the ".exe" from the first
+line of the Makefile.
+
+The code is licensed under the GPL, and is Copyright 2004 Ben Rudiak-Gould.
+You can contact me at br276@cl.cam.ac.uk.
